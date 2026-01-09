@@ -40,7 +40,7 @@ prices = client.get_prices(["bitcoin", "ethereum"])
 btc = client.get_price("bitcoin")
 print(f"BTC: ${btc.price_usd:,.2f}")
 
-# Historical prices (up to 365 days)
+# Historical prices
 history = client.get_historical_prices("bitcoin", days=30)
 for h in history:
     print(f"{h.timestamp}: ${h.price_usd:,.2f}")
