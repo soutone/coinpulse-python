@@ -120,9 +120,9 @@ client.delete_alert(alert.id)
 
 | Tier | Price | Requests/hr | Features |
 |------|-------|-------------|----------|
-| Free | $0 | 25 | Prices, portfolios |
-| Starter | $15/mo | 500 | + Historical data |
-| Pro | $49/mo | 2,500 | + Alerts, backtesting |
+| Free | $0 | 25 | Prices, portfolios, historical |
+| Starter | $15/mo | 500 | All features, higher limits |
+| Pro | $49/mo | 2,500 | + Price alerts, backtesting |
 | Enterprise | $149/mo | 10,000 | + Priority support |
 
 Get your API key at [coinpulse.dev](https://coinpulse.dev)
