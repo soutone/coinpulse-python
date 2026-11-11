@@ -1,6 +1,6 @@
 # coinpulse-python
 
-Simple Python SDK for the [CoinPulse](https://coinpulse.dev) crypto portfolio API.
+Simple Python SDK for the [CoinPulse](https://coinpulse.fly.dev) crypto portfolio API.
 
 No OAuth, no complex setup. Just prices and portfolios.
 
@@ -15,7 +15,7 @@ pip install coinpulse
 ```python
 from coinpulse import CoinPulse
 
-# Get your free API key at https://coinpulse.dev
+# Get your free API key at https://coinpulse.fly.dev
 client = CoinPulse(api_key="your-api-key")
 
 # Get current prices
@@ -121,11 +121,11 @@ client.delete_alert(alert.id)
 | Tier | Price | Requests/hr | Features |
 |------|-------|-------------|----------|
 | Free | $0 | 25 | Prices, portfolios, historical |
-| Starter | $15/mo | 500 | All features, higher limits |
-| Pro | $49/mo | 2,500 | + Price alerts, backtesting |
-| Enterprise | $99/mo | 10,000 | + Priority support |
+| Starter | $14/mo | 500 | All features, higher limits |
+| Pro | $45/mo | 2,500 | + Price alerts, backtesting |
+| Enterprise | $89/mo | 10,000 | + Priority support |
 
-Get your API key at [coinpulse.dev](https://coinpulse.dev)
+All paid plans include 7-day free trial. Get your API key at [coinpulse.fly.dev](https://coinpulse.fly.dev)
 
 ## Error Handling
 
@@ -166,7 +166,7 @@ prices: list[Price] = client.get_prices(["bitcoin"])
 ```python
 client = CoinPulse(
     api_key="your-key",
-    base_url="https://coinpulse.dev",  # default
+    base_url="https://coinpulse.fly.dev",  # default
     timeout=30,  # seconds
 )
 ```
@@ -177,5 +177,5 @@ MIT
 
 ## Links
 
-- API Docs: [coinpulse.dev/docs](https://coinpulse.dev/docs)
+- API Docs: [coinpulse.fly.dev/docs](https://coinpulse.fly.dev/docs)
 - Issues: [github.com/soutone/coinpulse-python/issues](https://github.com/soutone/coinpulse-python/issues)

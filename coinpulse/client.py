@@ -36,11 +36,11 @@ class CoinPulse:
 
     Args:
         api_key: Your CoinPulse API key
-        base_url: API base URL (default: https://coinpulse.dev)
+        base_url: API base URL (default: https://coinpulse.fly.dev)
         timeout: Request timeout in seconds (default: 30)
     """
 
-    DEFAULT_BASE_URL = "https://coinpulse.dev"
+    DEFAULT_BASE_URL = "https://coinpulse.fly.dev"
 
     def __init__(
         self,
